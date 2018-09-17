@@ -56,6 +56,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		888AF141214FE6B40034C16D /* ActiveLabel.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ActiveLabel.podspec; sourceTree = "<group>"; };
 		8F0249A21B9989B1005D8035 /* ActiveLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActiveLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0249A51B9989B1005D8035 /* ActiveLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActiveLabel.h; sourceTree = "<group>"; };
 		8F0249A71B9989B1005D8035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,6 +107,7 @@
 		8F0249981B9989B1005D8035 = {
 			isa = PBXGroup;
 			children = (
+				888AF141214FE6B40034C16D /* ActiveLabel.podspec */,
 				8F0249A41B9989B1005D8035 /* ActiveLabel */,
 				8F0249B01B9989B1005D8035 /* ActiveLabelTests */,
 				8F0249C11B998A66005D8035 /* ActiveLabelDemo */,
@@ -474,7 +476,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -494,7 +496,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = optonaut.ActiveLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
